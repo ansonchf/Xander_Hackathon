@@ -10,7 +10,7 @@ This script requires the following dependencies:
 - pandas
 - requests
 - matplotlib
--
+
 You can install these libraries via pip.
 
 ## Usage
