@@ -8,7 +8,6 @@ The script also allows the user to remove columns, remove duplicates, fill null 
 import pandas as pd
 import requests
 import os
-from sqlalchemy import create_engine
 import matplotlib.pyplot as plt
 
 def get_valid_filename():
@@ -99,7 +98,7 @@ def column_remove():
     while True:
         drop_or_no = int(input('Would you like to drop a column? 1 for Yes, 2 for No: '))
         if(drop_or_no == 1):
-            rowName = input('enter the columns that want to drop separated by spaces: ')
+            rowName = input('Enter the columns that want to drop separated by spaces: ')
             rowName_list = list((rowName.split()))
             for name in rowName_list:
                 df.drop([name], axis=1, inplace = True)
