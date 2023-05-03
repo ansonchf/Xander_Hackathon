@@ -4,14 +4,12 @@
 
 This Python script is designed to perform various data cleaning operations on a dataset. The script is built using the pandas library to read the dataset from various file formats, including CSV, Excel, JSON, HTML, Fixed-wordth format, and API. The script also allows the user to perform operations such as removing columns, removing duplicates, filling null values, and removing outliers.
 
-## Dependencies
-This script requires the following dependencies:
+## Libraries
+This script requires the following libraries:
 
 - pandas
 - requests
 - matplotlib
-
-You can install these libraries via pip.
 
 ## Usage
 1. Clone or download this repository to your local machine.
