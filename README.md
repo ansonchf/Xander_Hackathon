@@ -9,6 +9,7 @@ This script requires the following libraries:
 
 - pandas
 - requests
+- os
 - matplotlib
 
 ## Usage
